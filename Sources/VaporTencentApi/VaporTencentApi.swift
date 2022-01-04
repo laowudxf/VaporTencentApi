@@ -31,6 +31,9 @@ public class VaporTencentApi<T: TencentAPiPayload> {
         public var region: String = "ap-shanghai"
         let method = "POST"
         public var payload: T
+        public init(payload: T) {
+            self.payload = payload
+        }
     }
     
     
