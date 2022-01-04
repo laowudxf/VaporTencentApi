@@ -23,3 +23,14 @@
   - MailPayload
 
 If you need some other ApiPayload, you should implement by yourself reference to [腾讯云api浏览器](https://console.cloud.tencent.com/api/explorer).
+
+# Need some variable in .env
+
+#for stsPayload to get temp sts
+
+TencentRoleArn
+
+TencentSecretId
+
+TencentSecretKey
+
